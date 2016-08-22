@@ -1,5 +1,6 @@
 body, button {
   font-family: "Lucida Console", Courier, monospace;
+  box-sizing: border-box;
 }
 
 .container {
@@ -75,10 +76,6 @@ button:active {
   left: 2px;
   box-shadow: none;
   color: black;
-}
-
-button:hover {
-  transform: scale(1.08);
 }
 
 #on {
